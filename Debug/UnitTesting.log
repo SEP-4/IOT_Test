@@ -1,0 +1,9 @@
+﻿  WindowController.c
+C:\Users\Jannik\Desktop\IOT\4.Semester\4.Semester\WindowController.c(21,13): warning C4013: 'xTaskCreate' undefined; assuming extern returning int
+  FreeRTOS_FFF_MocksDefinitions.cpp
+  WindowControllerTest.cpp
+  Generating Code...
+C:\Users\Jannik\Desktop\IOT\4.Semester\UnitTesting\UnitTesting\UnitTesting\WindowControllerTest.cpp(48): warning C4700: uninitialized local variable 'pvParamaters' used
+WindowControllerTest.obj : error LNK2005: _fff already defined in FreeRTOS_FFF_MocksDefinitions.obj
+WindowControllerTest.obj : error LNK2005: _semaphore_mutex already defined in WindowController.obj
+C:\Users\Jannik\Desktop\IOT\4.Semester\UnitTesting\UnitTesting\Debug\UnitTesting.exe : fatal error LNK1169: one or more multiply defined symbols found
